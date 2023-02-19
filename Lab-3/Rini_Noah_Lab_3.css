@@ -1,0 +1,76 @@
+/* the three elements I chose not from class were font-weight, outline-style, and overflow */
+
+#company-name { /* local styling */
+    text-transform: uppercase;
+    font-weight:300; /* new element not from class */
+}
+
+#sub-name { /* local styling */
+    font-weight: 500;
+
+}
+
+.about { /* local styling */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(244, 219, 198);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 15px;
+    border: 3px solid rgb(43, 21, 1);
+}
+
+.footer { /* local styling */
+    background-color: rgb(245, 242, 221);
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 15px;
+    outline-style: double; /* new element not from class */
+}
+
+.header { /* local styling */
+    text-align: center;
+    background-color: rgb(43, 21, 1);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 3px;
+    border: 3px solid black;
+}
+
+a:link { /* global styling */
+    color: rgb(7, 83, 7);
+}
+
+a:hover { /* global styling */
+    color: green;
+}
+
+img { /* global styling */
+    border: 10px solid black;
+}
+
+tr { /* global styling */
+    margin: 3px;
+}
+
+.sub { /* local styling */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+iframe { /* global styling */
+    width: 400px;
+    height: 250px;
+}
+
+#left { /* local styling */
+    width: 300px;
+    height: 20px;
+    overflow: scroll; /* new element not from class */
+}
